@@ -3,8 +3,8 @@
 import os
 import sys
 
-from distribute_setup import use_setuptools
-use_setuptools()
+#from distribute_setup import use_setuptools
+#use_setuptools()
 from setuptools import setup, Extension
 
 if not hasattr(sys, "hexversion") or sys.hexversion < 0x02040000:
